@@ -1,6 +1,6 @@
 {
   "name": "wecom-webhook-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -19,12 +19,15 @@
     "url": "https://github.com/alongw/WeCom-WebHook-SDK"
   },
   "keywords": [],
+  "files": [
+    "dist"
+  ],
   "author": {
     "name": "alongw",
     "url": "https://github.com/alongw"
   },
   "license": "MIT",
-  "description": "",
+  "description": "Modules extracted from the alongw/mds",
   "dependencies": {
     "axios": "^1.9.0"
   }
