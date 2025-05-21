@@ -1,0 +1,11 @@
+{
+    "extends": ["./tsconfig.options.json"],
+    "include": ["./src/**/*"],
+    "outDir": "dist",
+    "baseUrl": "./src",
+    "compilerOptions": {
+        "paths": {
+            "@/*": ["./src/*"]
+        }
+    }
+}

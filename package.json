@@ -1,0 +1,31 @@
+{
+  "name": "wecom-webhook-sdk",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "npx tsc --project tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .ts,.js",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alongw/WeCom-WebHook-SDK"
+  },
+  "keywords": [],
+  "author": {
+    "name": "alongw",
+    "url": "https://github.com/alongw"
+  },
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.9.0"
+  }
+}
