@@ -19,7 +19,7 @@ A lightweight TypeScript SDK for sending messages via WeCom (WeChat Work) WebHoo
 ### Installation / 安装
 
 ```sh
-npm install --save sequelize
+npm install --save wecom-webhook-sdk
 ```
 
 ### Usage / 使用示例
